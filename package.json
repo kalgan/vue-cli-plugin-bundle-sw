@@ -1,0 +1,26 @@
+{
+  "name": "vue-cli-plugin-bundle-sw",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kalgan/vue-cli-plugin-bundle-sw.git"
+  },
+  "keywords": [
+    "vue",
+    "cli",
+    "sw",
+    "service worker",
+    "build"
+  ],
+  "author": "Alexey Kolganov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kalgan/vue-cli-plugin-bundle-sw/issues"
+  },
+  "homepage": "https://github.com/kalgan/vue-cli-plugin-bundle-sw#readme"
+}
