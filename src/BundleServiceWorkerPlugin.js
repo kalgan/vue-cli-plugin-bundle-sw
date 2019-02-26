@@ -11,8 +11,8 @@ module.exports = class BundleServiceWorkerPlugin {
   }
 
   apply (compiler) {
-    // avoid running twice (already run after the legacy build)
-    // if (process.env.VUE_CLI_MODERN_BUILD) return
+    // avoid running twice (only run on modern build)
+    if (!process.env.VUE_CLI_MODERN_BUILD) return
 
     compiler.hooks.make.tapAsync(ID, (compilation, cb) => {
       const { dest, context, src, plugins } = this.buildOptions
